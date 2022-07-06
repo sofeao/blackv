@@ -162,7 +162,7 @@ end
 if Redis:get(black.."chsource") then
 chsource = Redis:get(black.."chsource")
 else
-chsource = "J_F_A_I"
+chsource = "ooo_od"
 end
 function Reply_Status(UserId,TextMsg)
 local UserInfo = LuaTele.getUser(UserId)
@@ -917,7 +917,7 @@ data = {
 },
 }
 }
-send(msg.chat_id,msg.id,"➢ مرحبا عزيزي في مصنع الحمايه المجاني لسورس بلاك \n➢ مبرمج السورس @v_p_e","html",true, false, false, true, reply_markup)
+send(msg.chat_id,msg.id,"➢ مرحبا عزيزي في مصنع الحمايه المجاني لسورس بلاك \n➢ مبرمج السورس @ooo_od","html",true, false, false, true, reply_markup)
 return false 
 end
 ---making user
@@ -989,8 +989,8 @@ end
 end
 
 ----
-if text == 'المطور جاك' or text == 'مبرمج السورس' or text == 'جاك' then  
-local UserId_Info = LuaTele.searchPublicChat("v_p_e")
+if text == 'المطور حسن' or text == 'مبرمج السورس' or text == 'حسن' then  
+local UserId_Info = LuaTele.searchPublicChat("ooo_od")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -1001,11 +1001,11 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "𝑱𝑨𝑪𝑲\n— — — — — — — — —\n ❍*َdev name➢* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n❍*َbio* : [❲ "..Bio.." ❳]"
+local TestText = "𝖱𝗈𝖼𝗄𝗌\n— — — — — — — — —\n ❍*َdev name➢* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n❍*َbio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝑱𝑨𝑪𝑲', url = "https://t.me/v_p_e"}
+{text = '𝖱𝗈𝖼𝗄𝗌', url = "https://t.me/ooo_od"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -1015,10 +1015,10 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝑱𝑨𝑪𝑲', url = "https://t.me/v_p_e"}
+{text = '𝖱𝗈𝖼𝗄𝗌', url = "https://t.me/ooo_od"}
 },
 {
-{text = '𝑆𝑂𝑈𝑅𝐶𝐸 𝐵𝐿𝐴𝐶𝐾', url = "https://t.me/J_F_A_I"},
+{text = '𝑆𝑂𝑈𝑅𝐶𝐸 𝗌𝗈𝗎𝗋𝖼𝖾  𝖱𝗈𝖼𝗄𝗌', url = "https://t.me/ooo_od"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -1031,19 +1031,19 @@ if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or te
 photo = "https://t.me/photojack14366/58"
 local T =[[
 ــــــــــــــــــــــ❍ـــــــــــــــــــــ
- ❍ 𝑆𝑂𝑈𝑅𝐶𝐸 𝐵𝐿𝐴𝐶𝐾 ❍
+ ❍ 𝑆𝑂𝑈𝑅𝐶𝐸 𝗌𝗈𝗎𝗋𝖼𝖾  𝖱𝗈𝖼𝗄𝗌 ❍
 ــــــــــــــــــــــ❍ـــــــــــــــــــــ
 ❍ 𝐷𝐸𝑉 >> [˹ 𝐽𝐴𝐶𝐾 .](t.me/PHP57)
 ــــــــــــــــــــــ❍ـــــــــــــــــــــ 
 ❍ 𝐷𝐸𝑉 >> [˹ 𝐴𝐵𝑂 𝐴𝐿𝑀𝐴𝐺𝐷 .](t.me/MO_ABO_el)
 ــــــــــــــــــــــ❍ـــــــــــــــــــــ 
-❍ـــ❍ >> [˹ 𝑆𝑂𝑈𝑅𝐶𝐸 𝐵𝐿𝐴𝐶𝐾 .](t.me/J_F_A_I)
+❍ـــ❍ >> [˹ 𝑆𝑂𝑈𝑅𝐶𝐸 𝗌𝗈𝗎𝗋𝖼𝖾  𝖱𝗈𝖼𝗄𝗌 .](t.me/ooo_od)
 ــــــــــــــــــــــ❍ـــــــــــــــــــــ
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'ِّّ𝑆𝑂𝑈𝑅𝐶𝐸 𝐵𝐿𝐴𝐶𝐾', url = 't.me/J_F_A_I'}, 
+{text = 'ِّّ𝑆𝑂𝑈𝑅𝐶𝐸 𝗌𝗈𝗎𝗋𝖼𝖾  𝖱𝗈𝖼𝗄𝗌', url = 't.me/ooo_od'}, 
 },
 }
 local msgg = msg.id/2097152/0.5
